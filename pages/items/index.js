@@ -12,6 +12,10 @@ const Items = ({ data, searchTerm }) => {
     <>
       <Head>
         <title>{searchTerm} - Mercado Libre Argentina</title>
+        <meta
+          name="description"
+          content={`Encontrá ${searchTerm} en Mercado Libre Argentina. Descubrí la mejor forma de comprar online.`}
+        />
       </Head>
       {data.items.length === 0 ? (
         <h4 className="text-2xl text-center flex-grow pt-64">

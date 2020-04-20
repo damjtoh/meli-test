@@ -12,6 +12,10 @@ const ItemDetails = ({ data }) => {
     <>
       <Head>
         <title>{item.title} - Mercado Libre Argentina</title>
+        <meta
+          name="description"
+          content={`Compralo en Mercado Libre a $ ${item.price} - Comprá en 12 cuotas. Encontrá más productos de ${item.categories[0]}`}
+        />
       </Head>
       <Breadcrumbs categories={item.categories} />
       <div className="container mx-auto bg-white mb-6 mt-3 rounded-md p-6">
