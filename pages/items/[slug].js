@@ -44,7 +44,7 @@ const ItemDetails = ({ data }) => {
           </div>
         </div>
         <div>
-          <h4 className="text-xl mt-6 md:mt-0 font-semibold">
+          <h4 className="text-xl mt-6 font-semibold">
             Descripción del producto
           </h4>
           <p className="mt-6 whitespace-pre-line">{item.description}</p>
