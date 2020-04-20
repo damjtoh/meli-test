@@ -25,7 +25,8 @@ const Items = ({ data, searchTerm }) => {
             {data.items.map((item) => (
               <Link
                 key={item.id}
-                href={`/items/${item.id}-${slugify(item.title)}`}
+                as={`/items/${item.id}-${slugify(item.title)}`}
+                href="/items/[slug]"
               >
                 <div className="flex flex-col border-b p-4 my-4 cursor-pointer">
                   <div className="flex flex-row">
