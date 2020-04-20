@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import Head from "next/head";
 import PropTypes from "prop-types";
-import "../styles/index.css";
+import "../styles/index.scss";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import Header from "../components/Header";
