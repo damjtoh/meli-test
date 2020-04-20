@@ -23,7 +23,7 @@ const ItemDetails = ({ data }) => {
               className="mx-auto"
             />
           </div>
-          <div className="flex flex-col pl-4">
+          <div className="flex flex-col md:pl-4">
             <span className="text-sm">
               {ITEM_CONDITIONS[item.condition]} - {item.sold_quantity} vendidos
             </span>
